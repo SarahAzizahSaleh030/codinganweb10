@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>coffee Shop</title>
+    <link rel="stylesheet" href="styles2.css">
+    <link rel="stylesheet" hPPref="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!-- bootstrap links -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- bootstrap links -->
+    <!-- fonts links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <!-- fonts links -->
+</head>
+<body>
+  <div class="all-content">
+   
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg" id="navbar">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#" id="logo"><img src="./images/logo.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fa-solid fa-bars" style="color: white; font-size: 23px;"></i></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#menu">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#product">Product</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#gallary">Gallary</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#blogs">Blogs</a>
+          </li>
+         
+         
+         
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!-- navbar -->
+
+<!-- home section -->
+   <section id="home">
+    <div class="content">
+      <h3>Start Your Day With a <br> Localhost Brew</h3>
+      <p>Selamat datang di ruang nyaman kami, di mana setiap tegukan kopi adalah cerita.
+         <br>Di sini, setiap cangkir punya ceritanya sendiri
+      </p>
+      <button id="btn">Shop Now</button>
+    </div>
+   </section>
+
+<!-- home section -->
+
+
+
+<!-- about section -->
+<div class="about" id="about">
+  <div class="container">
+  <div class="heading">About <span>Us</span></div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <img src="./images/about.png" alt="">
+        </div>
+      </div>
+      <div class="col-md-6">
+        <h3>Apa Yang Membuat Kopi Kami Special?</h3>
+        <p>Kami percaya bahwa kopi adalah bahasa universal yang menyatukan berbagai cerita dan inspirasi. Di Localhost Brew, kami tidak hanya menyajikan kopi berkualitas, tetapi juga menciptakan ruang di mana ide-ide kreatif mengalir, persahabatan terjalin, dan momen berharga tercipta.
+          <br><br>Di sini, Anda akan menemukan kombinasi sempurna antara aroma kopi berkualitas, suasana yang nyaman, dan pelayanan yang ramah. Bersama kami, nikmati momen istimewa Anda ditemani secangkir kopi pilihan.
+          <br><br>Kami menantikan kesempatan untuk melayani Anda dan berbagi passion kami tentang kopi. Pintu kami selalu terbuka untuk para pencinta dan penikmat kopi sejati.
+         </p>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- about section -->
+
+
+   
+
+
+
+<!-- top cards -->
+<section class="top-cards">
+  <div class="heading2">Top <span>Categories</span></div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 py-3 py-md-0">
+        <div class="card">
+          <img src="./images/c1.png" alt="">
+          
+        </div>
+      </div>
+      <div class="col-md-4 py-3 py-md-0">
+        <div class="card">
+          <img src="./images/c2.png" alt="">
+          
+        </div>
+      </div>
+      <div class="col-md-4 py-3 py-md-0">
+        <div class="card">
+          <img src="./images/c3.png" alt="">
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- top cards -->
+
+
+
+
+
+
+<!-- menu -->
+<section class="menu" id="menu">
+  <div class="container">
+  <div class="heading3">Menu</div>
+</div>
+  <div class="container" id="container2">
+  <div class="row">
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="./images/m1.png" alt="">
+        <div class="card-body">
+          <div class="star text-center">
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <h3>CEO's Secret</h3>
+          <p>Rp 25K <strike>Rp 33K</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="./images/m2.png" alt="">
+        <div class="card-body">
+          <div class="star text-center">
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <h3>Island Breeze</h3>
+          <p>Rp 22K <strike>Rp 27K</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="./images/m3.png" alt="">
+        <div class="card-body">
+          <div class="star text-center">
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <h3>Royal Treatment</h3>
+          <p>Rp 38K <strike>Rp 43K</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="./images/m4.png" alt="">
+        <div class="card-body">
+          <div class="star text-center">
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <h3>Master's Creation</h3>
+          <p>Rp 35 K <strike>Rp 38K</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="row" style="margin-top: 50px;">
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="./images/m5.png" alt="">
+        <div class="card-body">
+          <div class="star text-center">
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <h3>Archipelago</h3>
+          <p>Rp 40K <strike>Rp 43K</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="./images/m6.png" alt="">
+        <div class="card-body">
+          <div class="star text-center">
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <h3>Spice Trail</h3>
+          <p>Rp 20K <strike>Rp 23K</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="./images/m7.png" alt="">
+        <div class="card-body">
+          <div class="star text-center">
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <h3>Caramel Latte</h3>
+          <p>Rp 30K <strike>Rp 35K</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-3 py-3 py-md-0">
+      <div class="card">
+        <img src="./images/m8.png" alt="">
+        <div class="card-body">
+          <div class="star text-center">
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+          <h3>Black</h3>
+          <p>Rp 18K <strike>Rp 23K</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
+<!-- menu -->
+
+
+
+<!-- product -->
+<section id="product" class="product">
+  <div class="container">
+  <div class="heading4">Products</div>
+</div>
+  <div class="container" id="container3">
+
+    <div class="row">
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="./images/arabica coffee.png" alt="">
+          <div class="card-body">
+            <h3>Arabic Coffee</h3>
+          <p>Rp 217K <strike>Rp 220K</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></p>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="./images/Cappuccino coffee.png" alt="">
+          <div class="card-body">
+            <h3>Cappuccino Coffee</h3>
+          <p>Rp 68K <strike>Rp 71K</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></p>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="./images/Black Coffee.png" alt="">
+          <div class="card-body">
+            <h3>Black Coffee</h3>
+          <p>Rp 125K <strike>Rp 130K</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></p>
+
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 py-3 py-md-0">
+        <div class="card">
+          <img src="./images/Decaf caffee.png" alt="">
+          <div class="card-body">
+            <h3>Decaf Coffee</h3>
+          <p>Rp 140K <strike>Rp 150K</strike> <span><i class="fa-solid fa-cart-shopping"></i></span></p>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+<!-- product -->
+
+
+<!-- our gallary -->
+<div class="container" id="gallary">
+  <h1>Our <span>Gallary</span></h1>
+  <div class="row" style="margin-top: 30px;">
+    <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+        <img src="./images/image1.png" alt="">
+      </div>
+    </div>
+    <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+        <img src="./images/image2.png" alt="">
+      </div>
+    </div>
+    <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+        <img src="./images/b3.png" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="row" style="margin-top: 30px;">
+    <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+        <img src="./images/image4.png" alt="">
+      </div>
+    </div>
+    <div class="col-md-4 py-3 py-md-0">
+      <div class="card">
+        <img src="./images/image5.png" alt="">
+    </div>
+  </div>
+  <div class="col-md-4 py-3 py-md-0">
+    <div class="card">
+      <img src="./images/image6.png" alt="">
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- our gallary -->
+
+<!-- Contact Section -->
+<section class="contact" id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7">
+        <div class="heading6">Hubungi Kami</div>
+        <p>Ada pertanyaan atau butuh bantuan? <br>Tim kami siap membantu Anda :)</p>
+
+        <!-- Formulir -->
+        <form id="contact-form" method="post" action="send_message.php">
+          <input type="text" class="form-control" id="name" name="name" placeholder="Nama" required>
+          <br>
+          <input type="email" class="form-control" id="email" name="email" placeholder="Email" required>
+          <br>
+          <input type="tel" class="form-control" id="phone" name="phone" placeholder="Nomor Telepon">
+          <br>
+          <textarea class="form-control" id="message" name="message" placeholder="Pesan" required></textarea>
+          <br>
+          <button type="submit" id="contact-btn">Kirim Pesan</button>
+        </form>
+
+        <!-- Notifikasi -->
+        <div id="notification" style="margin-top: 10px; color: green; display: none;">
+          Pesan berhasil dikirim!
+        </div>
+      </div>
+      <div class="col-md-5" id="col">
+        <h1>Info</h1>
+        <p><i class="fa-regular fa-envelope"></i> LocalhostBrew@gmail.com</p>
+        <p><i class="fa-solid fa-phone"></i> +62 123 456 789 10</p>
+        <p><i class="fa-solid fa-building-columns"></i> Jl. Ketintang, Surabaya</p>
+        <p>Jangan ragu untuk menghubungi kami! Kami siap memberikan pengalaman kopi terbaik untuk Anda.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+   <!-- barista profile -->
+   <section class="blogs" id="blogs">
+    <h1>Our <span>Barista</span></h1>
+
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-md-4 py-3 py-md-0">
+        <div class="card">
+          <img src="images/nopin 2.jpeg" alt="">
+          <div class="card-body">
+            <h3>Novinda Berliani</h3>
+            <h5>Head Barista / 23091397006</h5>
+            <p>Head Barista dengan pengalaman lebih dari 6 tahun dalam dunia kopi. Juara nasional dalam kompetisi Latte Art 2023 dan bersertifikat dari Specialty Coffee Association. </p>
+            <p>Keahliannya dalam menciptakan berbagai minuman kopi dan manual brew yang menakjubkan telah menjadikan Aroma Coffee Shop sebagai destinasi favorit pecinta kopi.</p>
+          </div>
+        </div>  
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+        <div class="card">
+          <img src="images/jijah 2.jpeg" alt="">
+          <div class="card-body">
+            <h3>Sarah Azizah Saleh</h3>
+            <h5>Barista / 23091397030</h5>
+            <p>Barista berbakat dengan keahlian dalam menciptakan berbagai jenis kopi. Memiliki pengalaman lebih dari 4 tahun di industri kopi. Serta menguasai teknik brewing.</p>
+            <p>Tidak hanya mahir dalam teknik brewing tetapi saya juga berpengalaman melayani 100+ pelanggan per hari dengan tetap mempertahankan standar kualitas tinggi.</p>
+          </div>
+        </div>  
+        </div>
+        <div class="col-md-4 py-3 py-md-0">
+        <div class="card">
+          <img src="images/amira 2.jpeg" alt="">
+          <div class="card-body">
+            <h3>Amira Hasna Maritsa</h3>
+            <h5>Barista / 23091397013</h5>
+            <p>Barista yang penuh semangat dan kreatif. Dengan pengalaman lebih dari 2 tahun, dia selalu berusaha memberikan pengalaman kopi terbaik kepada pelanggan.</p>
+            <p>Terus berinovasi menciptakan signature drinks yang unik, memadukan teknik klasik dengan kreativitas modern untuk menghadirkan pengalaman baru bagi para pecinta kopi.</p>
+          </div>
+        </div>  
+        </div>
+      </div>
+    </div>
+   </section>
+   <!-- blogs -->
+
+
+   <!-- footer -->
+   <footer id="footer">
+    <div class="footer-logo text-center"><img src="./images/logo.png" alt=""></div>
+    <div class="socail-links text-center">
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-brands fa-facebook-f"></i>
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-youtube"></i>
+      <i class="fa-brands fa-pinterest-p"></i>
+    </div>
+    <div class="credite text-center">
+        Designed By <a href="#"> Kelompok 10</a>
+    </div>
+    <div class="copyright text-center">
+      &copy; Copyright <strong><span>Localhost Brew</span></strong>. All Rights Reserved
+  </div>
+</footer>
+   <!-- footer -->
+
+   <a href="#" class="arrow"><i><img src="./images/up-arrow.png" alt="" width="50px"></i></a>
+
+
+  </div>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<script src="script.js"></script>
+<script>
+  document.getElementById("contact-form").addEventListener("submit", function(event) {
+      event.preventDefault();  // Mencegah pengiriman form default
+      alert("Form berhasil dikirim!");
+      this.submit();  // Kirim form setelah aksi tambahan (misalnya validasi)
+  });
+</script>
+</body>
+</html>
